@@ -1,0 +1,36 @@
+name: CI-unit-tests
+
+on:
+  # Trigger the workflow on push or pull request,
+  # but only for the main branch
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  pytest:
+    name: unit testing
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout simple_functions
+      uses: actions/checkout@v2
+
+    - name: Set test directory
+      run : |
+        echo "::set-env name=TESTS::tests/"
+    - name: Install dependencies
+      run: |
+        sudo apt-get install python3-setuptools -y
+        pip3 install --upgrade pip
+        pip3 install -e .
+        pip3 install -r requirements.txt
+    - name: Set a run prefix
+      run : |
+        echo "::set-env name=RUN::python3 -m"
+    - name: Test with pytest
+      run: |
+        $RUN pytest $TESTS
