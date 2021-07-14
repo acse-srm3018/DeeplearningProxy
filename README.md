@@ -98,7 +98,7 @@ See the `docs` directory for the preliminary documentation provided that you sho
 
 ## More information
 
-For more information on the project specfication, see the [notebooks]("") directory.
+For more information on the project specfication, see the [notebooks]("DeeplearningProxy/Notebooks/") directory.
 
 ## Further investigation
 
