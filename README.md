@@ -32,7 +32,7 @@ A grid search was used to determine the optimal model hyperparameters; the hyper
 
 The results of the grid search is given in the tables which can be found in the [tables](https://github.com/acse-2020/acse-4-x-ray-classification-inception/tree/main/tables) directory:
         
-## Data Preprocessing and Augmentation
+## Data Preprocessing
 
 Mean and standard deviation, Max and min of training and validation set were calcualted. Then pressure data standardized and normalized using these statistical values.
             
