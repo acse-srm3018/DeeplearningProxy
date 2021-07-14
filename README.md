@@ -34,7 +34,7 @@ The results of the grid search is given in the tables which can be found in the 
         
 ## Data Preprocessing and Augmentation
 
-Mean and standard deviation, Max and min of training, test and validation set were calcualted. Then pressure data standardized and normalized using these statistical values.
+Mean and standard deviation, Max and min of training and validation set were calcualted. Then pressure data standardized and normalized using these statistical values.
             
 
 ## Installation
