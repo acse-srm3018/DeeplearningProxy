@@ -98,7 +98,7 @@ See the `docs` directory for the preliminary documentation provided that you sho
 
 ## More information
 
-For more information on the project specfication, see the python notebooks: `ResNet18model.ipynb`.
+For more information on the project specfication, see the [notebooks].
 
 ## Further investigation
 
