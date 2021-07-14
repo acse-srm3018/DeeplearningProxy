@@ -54,7 +54,7 @@ when in your environment ensure that all requirements are satisfied via
 pip install -r requirements.txt
 ```
 
-Whichever solution you decide upon, the package `inception` should then be installed
+Whichever solution you decide upon, the package `models` should then be installed
 by running
 ```bash
 pip install -e .
@@ -98,7 +98,7 @@ See the `docs` directory for the preliminary documentation provided that you sho
 
 ## More information
 
-For more information on the project specfication, see the [notebooks].
+For more information on the project specfication, see the [notebooks]("") directory.
 
 ## Further investigation
 
