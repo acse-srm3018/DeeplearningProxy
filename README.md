@@ -75,7 +75,7 @@ from models.preprocessing import download_file_from_google_drive
 To use the models module you first need to import it:
 
 ```python
-import inception
+import models
 ```
 Then you can use different modules including layers and unet_uae
 
