@@ -9,7 +9,7 @@ from keras.optimizers import SGD
 from keras.optimizers import *
 from keras.layers import *     
    
-def BCDU_net_D3(input_size = (256, 256, 1)):
+def BCDU_net_D3(input_size):
     N = input_size[0]
     inputs = Input(input_size) 
     conv1 = Conv2D(64, 3, activation = 'relu', padding = 'same', kernel_initializer = 'he_normal')(inputs)
