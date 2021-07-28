@@ -26,9 +26,7 @@ The images of performance of different models on original datasets can be find u
 
 A grid search was used to determine the optimal model hyperparameters; the hyperparameters which were chosen to be optimised were:
 - Learning rate
-- Optimizer
 - Batch Size
-- momentum
 
 The results of the grid search is given in the tables which can be found in the [tables](https://github.com/acse-2020/acse-4-x-ray-classification-inception/tree/main/tables) directory:
         
