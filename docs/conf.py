@@ -3,7 +3,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.sep.join((os.curdir,'..'))))
 
-project = 'inception'
+project = 'Deep learning proxy of reservoir simulation'
 extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.napoleon']
 source_suffix = '.rst'
