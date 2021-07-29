@@ -1,7 +1,7 @@
 ### Unit test for some models including resnet18, inceptionv2 and inceptionv3###
 # import required libraries and packages
 import unittest
-from inception.models import inception_v2, inception_v3, mobilenet_v2, resnet18
+import vae_uae as vae 
 from inception.utils import download_file_from_google_drive, image_to_tensor, batchnorm
 from pathlib import Path
 import torch
