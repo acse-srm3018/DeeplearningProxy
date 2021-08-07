@@ -18,7 +18,7 @@ The dataset includes 2250 training and 7500 testing images that will be used for
 
 ## Models Comparsion and choosing
 
-We trained different CNN models to compare them and find the best ones based on their performance. The models we trained included: Residual-U-Net and LSTM,.
+We trained different CNN models to compare them and find the best ones based on their performance. The models we trained is Recurrent Residual-U-Net.
 
 The images of performance of different models on original datasets can be find under [images](https://github.com/acse-srm3018/DeeplearningProxy/tree/main/images) directory. We used transfer learning on pretrained models to develop our models. Based on the comparison of the accuracy and loss of the training and validation data, the ... and ... models were idetified as the best.
 
