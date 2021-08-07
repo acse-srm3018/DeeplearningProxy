@@ -2,7 +2,7 @@
 
 ## Project description
 The common modelling method for reservoir fluid flow model is to use a finite-difference (FD). Since FD uses computations on a discrete computational grid, and its precision is strongly related on a grid resolution. Being accurate, fluid flow simulation through porous media may be really time consuming (several hours for a single run) and we have to perform hundreds of thousands of run to calibrate the models using observation data and to correctly quantifying uncertainty.
-/
+/n
 In oil industry a fast and accurate model are required for three-phase flow simulation on a 3D computational grid. Almost all conventional approaches are unable to solve this task properly: either they hardly produce solutions for spatial fields (pressure, saturation, etc.) or they can work only under nonrealistic greatly simplified settings. In this project. 
 We propose to employ deep learning (DL) methods to create an efficient proxy of the 3D fluid flow simulator. The objective is to train a DL model that will take 3D cells of permeability and porosity values as an input and then produce 3D images of saturation and pressure as a function of time with given discretization.
 
@@ -75,7 +75,7 @@ To use the models module you first need to import it:
 ```python
 import models
 ```
-Then you can use different modules including layers and unet_uae
+Then you can use different modules including layers and unet_uae.
 
 ## Unit testing
 
