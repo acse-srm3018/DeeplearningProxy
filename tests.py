@@ -40,43 +40,15 @@ class TestModelOutputShape(unittest.TestCase):
     """
     Tests to ensure the output tensor has the correct shape.
     """
-    def test_inception_v2(self):
+    def test_vae_net(self):
         """
-        Testing inception_v2 model with test data
+        Testing vae_net model with test data
         ----------
         Returns
         -------
         True: boolean
         """
         model = inception_v2(pretrained=True).to('cpu')
-        x = torch.ones(8, 3, 299, 299)
-        y = model(x)
-        self.assertEqual(y.shape, torch.Size([8, 4]))
-        return True
-
-    def test_inception_v3(self):
-        """
-        Testing inception_v2 model with test data
-        ----------
-        Returns
-        -------
-        True: boolean
-        """
-        model = inception_v3(pretrained=True).to('cpu')
-        x = torch.ones(8, 3, 299, 299)
-        y = model(x)
-        self.assertEqual(y.shape, torch.Size([8, 4]))
-        return True
-
-    def test_resnet18(self):
-        """
-        Testing inception_v2 model with test data
-        ----------
-        Returns
-        -------
-        True: boolean
-        """
-        model = resnet18(pretrained=True).to('cpu')
         x = torch.ones(8, 3, 299, 299)
         y = model(x)
         self.assertEqual(y.shape, torch.Size([8, 4]))
@@ -109,29 +81,11 @@ class TestModelAccuracy(unittest.TestCase):
             print('Test images are already downloaded')
         self.dir_path += '/test_images/'
 
-    def test_inception_v2(self):
+    def test_vae_net(self):
         """
-        Testing inception-v2 model
+        Testing vae_net model
         """
         model = inception_v2(pretrained=True).to('cpu')
-        correct_preds, all_samples = make_predictions(model, self.dir_path)
-        self.assertGreater(correct_preds, 0.6 * all_samples)
-
-    def test_inception_v3(self):
-        """
-        Testing inception-v3 model
-        """
-        model = inception_v3(pretrained=True).to('cpu')
-        model.eval()
-        correct_preds, all_samples = make_predictions(model, self.dir_path)
-        self.assertGreater(correct_preds, 0.6 * all_samples)
-
-    def test_resnet18(self):
-        """
-        Testing resnet18 model
-        """
-        model = resnet18(pretrained=True).to('cpu')
-        model.eval()
         correct_preds, all_samples = make_predictions(model, self.dir_path)
         self.assertGreater(correct_preds, 0.6 * all_samples)
 
