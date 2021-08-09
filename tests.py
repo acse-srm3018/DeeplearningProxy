@@ -2,10 +2,6 @@
 # import required libraries and packages
 import unittest
 import vae_uae as vae 
-from inception.utils import download_file_from_google_drive, image_to_tensor, batchnorm
-from pathlib import Path
-import torch
-import zipfile
 import os
 
 def make_predictions(model, test_path):
