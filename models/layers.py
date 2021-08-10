@@ -151,7 +151,33 @@ def time_res_conv(filter_num, row_num, col_num, stride=(1, 1)):
 
     return _res_func
 
+class AttentionBlock(nn.Layer):
+    """Create Attention block class."""
+    def __init__(self, F_g, F_l, F_out):
+        super().__init__()
+        self.W_g = nn.Sequential(
+            nn.Conv2D(F_g, F_out, kernel_size=1, stride=1, padding=0),
+            nn.BatchNorm2D(F_out))
 
+        self.W_x = nn.Sequential(
+            nn.Conv2D(F_l, F_out, kernel_size=1, stride=1, padding=0),
+            nn.BatchNorm2D(F_out))
+
+        self.psi = nn.Sequential(
+            nn.Conv2D(F_out, 1, kernel_size=1, stride=1, padding=0),
+            nn.BatchNorm2D(1), nn.Sigmoid())
+
+        self.relu = nn.ReLU()
+
+    def forward(self, g, x):
+        g1 = self.W_g(g)
+        x1 = self.W_x(x)
+        psi = self.relu(g1 + x1)
+        psi = self.psi(psi)
+        res = x * psi
+        return res
+        
+        
 def dconv_bn_nolinear(nb_filter, nb_row, nb_col, stride=(2, 2),
                       activation="relu"):
     """
