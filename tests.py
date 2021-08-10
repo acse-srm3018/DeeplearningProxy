@@ -4,9 +4,23 @@ import unittest
 import vae_uae as vae 
 from inception.utils import download_file_from_google_drive, image_to_tensor, batchnorm
 from pathlib import Path
-import torch
-import zipfile
+import tensorflow as tf 
 import os
+from tensorflow.keras.callbacks import EarlyStopping
+import numpy as np
+import unet_uae as vae_util
+import os
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
+from tensorflow.keras import layers
+from tensorflow.keras.models import load_model, Model
+from tensorflow.python.keras import backend as K
+from keras.optimizers import Adam
+config = tf.compat.v1.ConfigProto()
+config.gpu_options.allow_growth = True
+config.gpu_options.per_process_gpu_memory_fraction = 0.3
+sess = tf.compat.v1.Session(config=config)
+K.set_session(sess)
+
 
 def make_predictions(model, test_path):
     """
