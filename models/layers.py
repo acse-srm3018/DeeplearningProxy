@@ -176,8 +176,19 @@ class AttentionBlock(nn.Layer):
         psi = self.psi(psi)
         res = x * psi
         return res
-        
-        
+
+    
+def attention(tensor, att_tensor, n_filters=512, kernel_size=[1, 1]):
+    g1 = conv2d(tensor, n_filters, kernel_size=kernel_size)
+    x1 = conv2d(att_tensor, n_filters, kernel_size=kernel_size)
+    net = add(g1, x1)
+    net = tf.nn.relu(net)
+    net = conv2d(net, 1, kernel_size=kernel_size)
+    net = tf.nn.sigmoid(net)
+    #net = tf.concat([att_tensor, net], axis=-1)
+    net = net * att_tensor
+    return net
+
 def dconv_bn_nolinear(nb_filter, nb_row, nb_col, stride=(2, 2),
                       activation="relu"):
     """
