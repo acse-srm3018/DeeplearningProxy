@@ -151,7 +151,7 @@ def time_res_conv(filter_num, row_num, col_num, stride=(1, 1)):
 
     return _res_func
 
-class AttentionBlock(nn.Layer):
+class AttentionBlock(Layer):
     """Create Attention block class."""
     def __init__(self, F_g, F_l, F_out):
         super().__init__()
