@@ -101,7 +101,7 @@ For use the saved models, you can use [pressure saved models](https://drive.goog
 
 ## Further investigation
 
-- Investigating performance of model and choose model based training and tested run time.
+- Investigating performance of model and choose model based training and test run time.
 
 ## References
 
