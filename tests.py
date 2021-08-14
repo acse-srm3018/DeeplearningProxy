@@ -1,4 +1,4 @@
-### Unit test for some models including resnet18, inceptionv2 and inceptionv3###
+### Unit test for some models including RR U-net and A RR U-net###
 # import required libraries and packages
 import unittest
 import vae_uae as vae 
