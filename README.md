@@ -12,9 +12,9 @@ You can download dataset from below google drive [link](https://drive.google.com
 The dataset includes 2250 training and 750 testing images that will be used for training ANN models.
 
   Trainging dataset:
-    The training dataset is 2250 of All_X.npy and All_Y.npy as permeability map as input data and their corresponding pressure and saturation maps as the targets. 
+    The training dataset is 2250 of permeability.npy and pressure.npy and saturation.npy as permeability map as input data and their corresponding pressure and saturation maps as the targets. 
  Test dataset:
-    The training dataset is 750 of All_X.npy and All_Y.npy as permeability map as input data and their corresponding pressure and saturation maps as the targets.
+    The training dataset is 750 of permeability.npy and pressure.npy and saturation.npy as permeability map as input data and their corresponding pressure and saturation maps as the targets.
 
 ## Models Comparsion and choosing
 
