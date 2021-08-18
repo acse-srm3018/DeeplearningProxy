@@ -110,10 +110,10 @@ See the `docs` directory for the preliminary documentation provided that you sho
 
 For more information on the project specfication, see the [notebooks](https://github.com/acse-srm3018/DeeplearningProxy/tree/main/Notebooks) directory.
 For use the saved models, you can use:
-- RR U-Net for pressure model can be found in this [saved RR U-Net model]("https://drive.google.com/file/d/1KIqCAb0x7xoZmTSg0MlSYRPbXPSilWVF/view?usp=sharing").
-- A RR U-Net for pressure model can be found in this [saved A RR U-Net model]("https://drive.google.com/file/d/1hgLPrv5yL9yn8MHt0BnQQQCBAXCRlRbv/view?usp=sharing").
-- RR U-Net for saturation model can be found in this [saved RR U-Net model]("https://drive.google.com/file/d/1WWsKbKtlaxjGHTNZiAbLucjvrIiMgWSE/view?usp=sharing").
-- A RR U-Net for saturation model can be found in this [saved A RR U-Net model]("https://drive.google.com/file/d/1Ph8zCWKTWR2q339V44PINRVvrxkSGb4d/view?usp=sharing").
+- RR U-Net for pressure model can be found in this [saved RR U-Net model](https://drive.google.com/file/d/1KIqCAb0x7xoZmTSg0MlSYRPbXPSilWVF/view?usp=sharing).
+- A RR U-Net for pressure model can be found in this [saved A RR U-Net model](https://drive.google.com/file/d/1hgLPrv5yL9yn8MHt0BnQQQCBAXCRlRbv/view?usp=sharing).
+- RR U-Net for saturation model can be found in this [saved RR U-Net model](https://drive.google.com/file/d/1WWsKbKtlaxjGHTNZiAbLucjvrIiMgWSE/view?usp=sharing).
+- A RR U-Net for saturation model can be found in this [saved A RR U-Net model](https://drive.google.com/file/d/1Ph8zCWKTWR2q339V44PINRVvrxkSGb4d/view?usp=sharing).
 
 
 ## Further investigation
