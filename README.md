@@ -81,7 +81,8 @@ Then you can use different modules including layers and unet_uae.
 The animation of pressure results from simulator are shown here:
 <img src="https://github.com/acse-srm3018/DeeplearningProxy/blob/main/animation/animation_pressure_true_simulator.gif" alt="Overview" width="60%" height="60%"></a>
 
-and the map from Attention RR U-Net 
+and the attention map from Attention RR U-Net model for different time from 90 days after production until 1800 days.
+<img src="https://github.com/acse-srm3018/DeeplearningProxy/blob/main/animation/animation_pressure_attention_pred.gif" alt="overview" width="60%" height="60%"></a>
 
 ## Unit testing
 
