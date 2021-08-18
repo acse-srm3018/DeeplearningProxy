@@ -79,7 +79,7 @@ Then you can use different modules including layers and unet_uae.
 ## Results
 
 The animation of pressure results from simulator are shown here:
-<a href="https://www.youtube.com/watch?v=g5BhDtoheE4"><img src="./project_4_advanced_lane_finding/img/overview.gif" alt="Overview" width="60%" height="60%"></a>
+<img src="https://github.com/acse-srm3018/DeeplearningProxy/blob/main/animation/animation_pressure_true_simulator.gif" alt="Overview" width="60%" height="60%"></a>
 
 and the map from Attention RR U-Net 
 
