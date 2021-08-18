@@ -78,7 +78,9 @@ import models
 Then you can use different modules including layers and unet_uae.
 ## Results
 
-we 
+The animation of pressure results from simulator are shown here:
+
+and the map from Attention RR U-Net 
 
 ## Unit testing
 
