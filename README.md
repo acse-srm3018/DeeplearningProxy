@@ -84,6 +84,9 @@ The animation of pressure results from simulator are shown here:
 and the attention map from Attention RR U-Net model for different time from 90 days after production until 1800 days.
 <img src="https://github.com/acse-srm3018/DeeplearningProxy/blob/main/animation/animation_pressure_attention_pred.gif" alt="overview" width="60%" height="60%"></a>
 
+and saturation map animation like:
+<img src="https://github.com/acse-srm3018/DeeplearningProxy/blob/main/animation/animation_saturation.gif" alt="overview" width="60%" height="60%"></a>
+
 ## Unit testing
 
 To run the unit test suite
