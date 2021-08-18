@@ -77,11 +77,6 @@ import models
 ```
 Then you can use different modules including layers and unet_uae.
 
-## Saved trained model:
-1- RR U-Net for pressure model can be found in this [saved RR U-Net model]("https://drive.google.com/file/d/1KIqCAb0x7xoZmTSg0MlSYRPbXPSilWVF/view?usp=sharing")
-2- A RR U-Net for pressure model can be found in this [saved A RR U-Net model]("https://drive.google.com/file/d/1hgLPrv5yL9yn8MHt0BnQQQCBAXCRlRbv/view?usp=sharing")
-3- RR U-Net for saturation model can be found in this [saved RR U-Net model]("https://drive.google.com/file/d/1WWsKbKtlaxjGHTNZiAbLucjvrIiMgWSE/view?usp=sharing")
-4- A RR U-Net for saturation model can be found in this [saved A RR U-Net model]("https://drive.google.com/file/d/1Ph8zCWKTWR2q339V44PINRVvrxkSGb4d/view?usp=sharing")
 ## Results
 
 The animation of pressure results from simulator are shown here:
@@ -114,7 +109,12 @@ See the `docs` directory for the preliminary documentation provided that you sho
 ## More information
 
 For more information on the project specfication, see the [notebooks](https://github.com/acse-srm3018/DeeplearningProxy/tree/main/Notebooks) directory.
-For use the saved models, you can use [pressure saved models](https://drive.google.com/file/d/1KIqCAb0x7xoZmTSg0MlSYRPbXPSilWVF/view?usp=sharing).
+For use the saved models, you can use:
+- RR U-Net for pressure model can be found in this [saved RR U-Net model]("https://drive.google.com/file/d/1KIqCAb0x7xoZmTSg0MlSYRPbXPSilWVF/view?usp=sharing").
+- A RR U-Net for pressure model can be found in this [saved A RR U-Net model]("https://drive.google.com/file/d/1hgLPrv5yL9yn8MHt0BnQQQCBAXCRlRbv/view?usp=sharing").
+- RR U-Net for saturation model can be found in this [saved RR U-Net model]("https://drive.google.com/file/d/1WWsKbKtlaxjGHTNZiAbLucjvrIiMgWSE/view?usp=sharing").
+- A RR U-Net for saturation model can be found in this [saved A RR U-Net model]("https://drive.google.com/file/d/1Ph8zCWKTWR2q339V44PINRVvrxkSGb4d/view?usp=sharing").
+
 
 ## Further investigation
 
