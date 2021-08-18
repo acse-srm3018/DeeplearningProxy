@@ -18,7 +18,7 @@ The dataset includes 2250 training and 750 testing images that will be used for 
 
 ## Models Comparsion and choosing
 
-We trained different CNN models to compare them and find the best ones based on their performance. The models we trained are Recurrent Residual-U-Net (RR U-Net) and attention residual recurrent U-net (A RR U-Net) same as what has been used in this [work](https://github.com/soloist96/2D-recurrent-R-U-Net-surrogate-for-dynamic-flows).
+We trained different CNN models to compare them and find the best ones based on their performance. The models we trained are Recurrent Residual-U-Net (RR U-Net) same as what has been used in this [work](https://github.com/soloist96/2D-recurrent-R-U-Net-surrogate-for-dynamic-flows) and attention residual recurrent U-net (A RR U-Net).
 
 The images of performance of different models on original datasets can be find under [images](https://github.com/acse-srm3018/DeeplearningProxy/tree/main/images) directory. We used transfer learning on pretrained models to develop our models. Based on the comparison of the accuracy and loss of the training and validation data, the ... and ... models were idetified as the best.
 
@@ -76,6 +76,12 @@ To use the models module you first need to import it:
 import models
 ```
 Then you can use different modules including layers and unet_uae.
+
+## Saved trained model:
+1- RR U-Net for pressure model can be found in this [saved RR U-Net model]("https://drive.google.com/file/d/1KIqCAb0x7xoZmTSg0MlSYRPbXPSilWVF/view?usp=sharing")
+2- A RR U-Net for pressure model can be found in this [saved A RR U-Net model]("https://drive.google.com/file/d/1hgLPrv5yL9yn8MHt0BnQQQCBAXCRlRbv/view?usp=sharing")
+3- RR U-Net for saturation model can be found in this [saved RR U-Net model]("https://drive.google.com/file/d/1WWsKbKtlaxjGHTNZiAbLucjvrIiMgWSE/view?usp=sharing")
+4- A RR U-Net for saturation model can be found in this [saved A RR U-Net model]("https://drive.google.com/file/d/1Ph8zCWKTWR2q339V44PINRVvrxkSGb4d/view?usp=sharing")
 ## Results
 
 The animation of pressure results from simulator are shown here:
