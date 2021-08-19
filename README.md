@@ -97,7 +97,7 @@ See the `docs` directory for the preliminary documentation provided that you sho
 ## More information
 
 For more information on the project specfication, see the [notebooks](https://github.com/acse-srm3018/DeeplearningProxy/tree/main/Notebooks) directory.
-For use the saved models, you can use [pressure saved models](https://drive.google.com/file/d/1KIqCAb0x7xoZmTSg0MlSYRPbXPSilWVF/view?usp=sharing).
+For using the saved models, you can use [pressure saved models](https://drive.google.com/file/d/1KIqCAb0x7xoZmTSg0MlSYRPbXPSilWVF/view?usp=sharing).
 
 ## Further investigation
 
