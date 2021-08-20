@@ -1,4 +1,4 @@
-# Deep learning Proxy of reservoir simulation
+# Deep Learning Proxy of Reservoir Simulation
 
 ## Project description
 The common modelling method for modeling reservoir fluid flow is to use a finite-difference (FD). Since FD uses computations on a discrete computational grid, and its precision is depend on a grid resolution. Being accurate, fluid flow simulation through porous media may be really time consuming (several hours for a single run) and we have to perform hundreds of thousands of run to calibrate the models using observation data and to correctly quantifying uncertainty.
