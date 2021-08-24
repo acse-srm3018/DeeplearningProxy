@@ -129,4 +129,4 @@ For use the saved models with 10 time steps, you can use:
 * Heinrich, M.P., Stille, M. and Buzug, T.M., 2018. Residual U-net convolutional neural network architecture for low-dose CT denoising. Current Directions in Biomedical Engineering, 4(1), pp.297-300.
 * Alom, M.Z., Yakopcic, C., Hasan, M., Taha, T.M. and Asari, V.K., 2019. Recurrent residual U-Net for medical image segmentation. Journal of Medical Imaging, 6(1), p.014006.
 * Azad, R., Asadi-Aghbolaghi, M., Fathy, M. and Escalera, S., 2019. Bi-directional ConvLSTM U-Net with densley connected convolutions. In Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops (pp. 0-0).
-
+* Jin, Z. L., Liu, Y. & Durlofsky, L. J. (2019), ‘Deep-learning-based reduced-order modeling for subsurface flow simulation’, arXiv preprint arXiv:1906.03729.
