@@ -46,7 +46,7 @@ by running
 ```bash
 conda env create -f environment.yml
 ```
-from within the base folder of this repository. If you wish to use some other virtual environment solution (or none at all),
+Within the base folder of this repository. If you wish to use some other virtual environment solution (or none at all),
 when in your environment ensure that all requirements are satisfied via
 ```bash
 pip install -r requirements.txt
