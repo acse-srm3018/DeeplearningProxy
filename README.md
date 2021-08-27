@@ -107,7 +107,7 @@ python -m sphinx docs html
 
 See the `docs` directory for the preliminary documentation provided that you should add to.
 
-Also the pdf file of report placed in [report](https://github.com/acse-srm3018/DeeplearningProxy/tree/main/Notebooks) file.
+Also the pdf file of report placed in [report](https://github.com/acse-srm3018/DeeplearningProxy/blob/main/Deep_learning_proxy_of_reservoir_simulation.pdf)file.
 
 
 ## More information
