@@ -7,7 +7,8 @@ In oil industry, a fast and accurate model are required for three-phase flow sim
 We propose to employ deep learning (DL) methods to create an efficient proxy of the 3D fluid flow simulator. The objective is to train a DL model that will take 3D cells of permeability and porosity values as an input and then produce 3D images of saturation and pressure as a function of time with given discretization.
 
 ## Dataset
-You can download dataset from below google drive [link](https://drive.google.com/drive/folders/16o2DW8kXaXbDh7FrD_63uHNi4N1ffEk0?usp=sharing).
+You can download  pressure dataset from google drive [link1](https://drive.google.com/file/d/1ngjOd_SPuD5NVDLbc06CQyAxKdZaB6ve/view?usp=sharing), [link2](https://drive.google.com/file/d/1fYA8LaNqnSPlwjGFKD69mKKOnmbVY5o7/view?usp=sharing) and the saturation [link1](https://drive.google.com/file/d/1sheRgkImbdhLQdz-xL9YnzA9Aib4acCG/view?usp=sharing), [link2](https://drive.google.com/file/d/1uD8x6S8UTKDcdDkXYrHfeGM-EjmASkNp/view?usp=sharing) and [permeability](https://drive.google.com/file/d/1hB4HyjT4k1q0Dqq3l2i66VXVw_Nf-vLc/view?usp=sharing).
+
 
 The dataset includes 2250 training and 750 testing images that will be used for training ANN models.
 
