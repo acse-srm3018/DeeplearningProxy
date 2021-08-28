@@ -11,8 +11,8 @@ You can download dataset from below google drive [link](https://drive.google.com
 
 The dataset includes 2250 training and 750 testing images that will be used for training ANN models.
 
-  Trainging dataset:
-    The training dataset is 2250 of permeability.npy and pressure.npy and saturation.npy as permeability map as input data and their corresponding pressure and saturation maps as the targets. 
+ Trainging dataset:
+    The training dataset is 2250 of permeability.npy and pressure.npy and saturation.npy as permeability map as input data and their corresponding pressure and saturation maps as the     targets. 
  Test dataset:
     The training dataset is 750 of permeability.npy and pressure.npy and saturation.npy as permeability map as input data and their corresponding pressure and saturation maps as the targets.
 
@@ -107,7 +107,7 @@ python -m sphinx docs html
 
 See the `docs` directory for the preliminary documentation provided that you should add to.
 
-Also the pdf file of report placed in [report](https://github.com/acse-srm3018/DeeplearningProxy/blob/main/SeyedehRahaMoosavi_ACSE9_FinalReport.pdf)file.
+Also the pdf file of report placed in [report](https://github.com/acse-srm3018/DeeplearningProxy/blob/main/SeyedehRahaMoosavi_ACSE9_FinalReport.pdf) file.
 
 
 ## More information
