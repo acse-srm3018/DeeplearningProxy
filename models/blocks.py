@@ -14,10 +14,10 @@ The sequences of these blocks then create the network for our models.
 
 import tensorflow as tf
 from keras import backend as K
-from keras.engine.topology import Layer
+# from keras.engine.topology import Layer
 from keras.layers.merge import add
 # from keras.engine import InputSpec
-from keras.layers import InputSpec, multiply, Lambda
+from keras.layers import InputSpec, multiply, Lambda, Layer
 from keras.layers.core import Activation
 from keras.layers.convolutional import Conv2D, UpSampling2D
 from keras.layers import BatchNormalization, Conv2DTranspose
