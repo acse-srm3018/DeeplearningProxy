@@ -68,6 +68,6 @@ def create_vae(input_shape, depth):
                                     activation=None))(dec0)
     print('output shape is ', K.int_shape(output))
     # Full net
-    full_model = Model(input, output
+    full_model = Model(input, output)
 
     return full_model, encoder
