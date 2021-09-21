@@ -123,7 +123,7 @@ For use the saved models with 10 time steps, you can use:
 
 ## Further investigation
 
-- Investigating performance of model and choose model based training and test run time.
+- Investigating performance of model and choose model based training and test run time
 
 ## References
 
