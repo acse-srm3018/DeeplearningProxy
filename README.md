@@ -9,7 +9,7 @@ We propose to employ deep learning (DL) methods to create an efficient proxy of 
 ## Dataset
 You can download dataset from below google drive [link](https://drive.google.com/drive/folders/16o2DW8kXaXbDh7FrD_63uHNi4N1ffEk0?usp=sharing).
 
-The dataset includes 2250 training and 750 testing images that will be used for training ANN models.
+The dataset includes 2250 training and 750 testing images that will be used for training ANN models:
 
   Trainging dataset:
     The training dataset is 2250 of All_X.npy and All_Y.npy as permeability map as input data and their corresponding pressure and saturation maps as the targets. 
