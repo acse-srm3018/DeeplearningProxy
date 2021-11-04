@@ -10,7 +10,7 @@ We propose to employ deep learning (DL) methods to create an efficient proxy of 
 You can download  pressure dataset from google drive [link1](https://drive.google.com/file/d/1ngjOd_SPuD5NVDLbc06CQyAxKdZaB6ve/view?usp=sharing), [link2](https://drive.google.com/file/d/1fYA8LaNqnSPlwjGFKD69mKKOnmbVY5o7/view?usp=sharing) and the saturation [link1](https://drive.google.com/file/d/1sheRgkImbdhLQdz-xL9YnzA9Aib4acCG/view?usp=sharing), [link2](https://drive.google.com/file/d/1uD8x6S8UTKDcdDkXYrHfeGM-EjmASkNp/view?usp=sharing) and [permeability](https://drive.google.com/file/d/1hB4HyjT4k1q0Dqq3l2i66VXVw_Nf-vLc/view?usp=sharing).
 
 
-The dataset includes 2250 training and 750 testing images that will be used for training ANN models.
+The dataset includes 2250 training and 750 testing images that will be used for training ANN models
 
  Trainging dataset:
     The training dataset is 2250 of permeability.npy and pressure.npy and saturation.npy as permeability map as input data and their corresponding pressure and saturation maps as the     targets. 
